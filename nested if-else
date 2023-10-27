@@ -1,0 +1,17 @@
+#!/bin/bash
+
+read -p "Enter your marks: " marks
+
+if [[ $marks -ge 80 ]]
+then
+      echo "GRADE:A"
+elif [[ $marks -ge 60 ]]
+then
+      echo "GRADE:B"
+elif [[ $marks -ge 40 ]]
+then
+      echo "GRADE:C"
+else
+      echo "GRADE:F"
+fi
+
